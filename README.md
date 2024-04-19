@@ -1,7 +1,7 @@
-- [] Descriptive README file
+- [ ] Descriptive README file
 - [x] Create test_branch
-- [] Organize folders, put functions to different folder
-- [] Unit test
+- [ ] Organize folders, put functions to different folder
+- [ ] Unit test
 
 This is a personal project by Barnabás Epres to showcase the differences between the two sentiment analyser models, VADER and roBERTa, and display several inferential statistic values. 
 The aim of this project was to demonstrate how the two models differentiate from each other. VADER model uses a method to determine the sentiment for each word in a sentence, then calculates the weighted average value to make an overall compound score for the input text's sentiment. The roBERTa model works on similar basis, however it takes the context and surrounding words into account, therefore it gives a smoother approach to sentences. My goal was to demostrate this difference, especially while analysing edge-cases (e.g.: sarcasm, irony), and to show that VADER model misunderstands such situations, while roBERTa recognises them in most cases. 
